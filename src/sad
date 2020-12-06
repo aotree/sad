@@ -58,5 +58,5 @@ while getopts ":aAdDh" optKey; do
   esac
 done
 
-sed -i.bak $REGEXP $4 &&
+sed -i.bak "$REGEXP" $4 &&
 echo Backup file \"$4.bak\" was created next to \"$4\"
