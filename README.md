@@ -1,6 +1,7 @@
 # sad
 
 A shell command that searches a file for lines that match a regular expression and adds or removes strings before or after them.
+
 ## Installation
 
 Note: Replace `/directory/set/in/$PATH/` to suit your environment, for example `/usr/local/bin/`.
@@ -14,6 +15,11 @@ $ cd sad/
 $ # Allow 'sad' command to be used without './'
 $ cp src/sad /directory/set/in/$PATH/
 ```
+
+## How it works
+
+1. Search the [file] for lines that match a [regexp]
+2. Add or delete [string] before or after matched line
 
 ## How to use
 
@@ -39,8 +45,3 @@ If you use special characters in the [string], escape them.
   - If you add or delete //, pass \\\\/\\\\/ for $2.
   - If you add or delete <!--, pass \\<\\!\\-\\- for $2.
   - If you add or delete -->, pass \\\\-\\-\\> for $2.
-
-## How it works
-
-1. Search the [file] for lines that match a [regexp]
-2. Add or delete [string] before or after matched line
