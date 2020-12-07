@@ -1,5 +1,7 @@
 # sad
 
+> ## `S`earch for lines, then `A`dd or `D`elete strings around them.
+
 A shell command that searches a file for lines that match a regular expression and adds or removes strings before or after them.
 
 ## Installation
